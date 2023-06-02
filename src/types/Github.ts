@@ -8,6 +8,7 @@ export namespace Github {
     author: Actor
     authorAssociation: AuthorAssociation
     bodyHTML: string
+    bodyText: string
     category: Category
     createdAt: DateTime
     labels: LabelConnection

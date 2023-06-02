@@ -85,6 +85,7 @@ export class Discussions {
             }
             authorAssociation
             bodyHTML
+            bodyText
             category {
               emoji
               isAnswerable
@@ -99,6 +100,12 @@ export class Discussions {
                 name
               }
               totalCount
+              pageInfo {
+                  endCursor
+                  hasNextPage
+                  hasPreviousPage
+                  startCursor
+                }
             }
             lastEditedAt
             locked
@@ -152,6 +159,7 @@ export class Discussions {
               }
               authorAssociation
               bodyHTML
+              bodyText
               category {
                 emoji
                 isAnswerable
